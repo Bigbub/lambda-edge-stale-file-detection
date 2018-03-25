@@ -3,6 +3,7 @@
  *  Detect stale files with an age older than maxAge, using Last-Modified HTTP
  *  header value in the Response object.
  *  Designed for use with a CloudFront Origin Response trigger.
+ *  Change the default "index.handler" value to "staleFile.handler" for this code to work
  *
  *  Author: Derek Ewell
  *
